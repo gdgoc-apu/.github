@@ -1,0 +1,64 @@
+name: Bug report
+description: Report something that is broken or not working as expected
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Project or repository
+      description: Which GDGoC APU project does this affect?
+      placeholder: e.g. event platform, .github
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: A clear description of the bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce the issue?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or logs
+      description: Add screenshots or error logs if helpful
+      render: text
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, OS, device, or app version if relevant
+      placeholder: e.g. Chrome 120, Windows 11

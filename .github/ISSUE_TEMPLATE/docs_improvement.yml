@@ -1,0 +1,42 @@
+name: Documentation improvement
+description: Suggest clearer or missing documentation
+title: "[Docs]: "
+labels:
+  - documentation
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Which document or page?
+      description: Link or name of the doc that needs improvement
+      placeholder: e.g. CONTRIBUTING.md, README, setup guide
+    validations:
+      required: true
+
+  - type: textarea
+    id: unclear
+    attributes:
+      label: What is unclear or missing?
+      description: Describe what confused you or what information is absent
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: How would you improve it? Optional but helpful.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Willing to contribute?
+      description: Would you like to submit a pull request for this?
+      options:
+        - "Yes, I can open a pull request"
+        - "Yes, but I need guidance"
+        - "No, just suggesting"
+    validations:
+      required: true
