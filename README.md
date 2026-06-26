@@ -9,6 +9,7 @@ This is the special `.github` repository. GitHub applies these defaults to any r
 | File / folder | Purpose |
 | --- | --- |
 | [profile/README.md](profile/README.md) | Organisation profile shown on [github.com/gdgoc-apu](https://github.com/gdgoc-apu) |
+| [profile/assets/logo.png](profile/assets/logo.png) | Club logo used on the org profile |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute to org projects |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community behaviour expectations |
 | [GOVERNANCE.md](GOVERNANCE.md) | Roles, decision-making, and review standards |

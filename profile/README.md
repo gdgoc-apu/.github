@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo.png" alt="GDGoC APU — Google Developer Groups on Campus at Asia Pacific University" width="240" />
+
 # GDGoC APU
 
 **Google Developer Groups on Campus at Asia Pacific University, Malaysia**
